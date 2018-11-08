@@ -1,6 +1,6 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: #585757;
+    background: lightgray;
     margin: 200px;
     text-align: center;
     box-sizing: border-box;
@@ -8,17 +8,24 @@ body{
 
 header{
 background: rgb(255, 255, 255);
-
 font-size: 50px;
 }
 
 p{
     background: rgb(255, 255, 255);
     text-align: center;
-    font-size: 18px;
-   
+    font-size: 18px; 
 }
 
-ul,li{
+ul{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid black;
     text-align: center;
 }
