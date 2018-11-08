@@ -1,25 +1,24 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background: #f1f1f1;
-    border: 2px solid rgb(20, 20, 20);
-    margin: auto;
+    background: #585757;
+    margin: 200px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 header{
-background: white;
-padding: 30px;
-border: transparent;
+background: rgb(255, 255, 255);
+
 font-size: 50px;
 }
 
 p{
-    background: rgb(204, 195, 171);
-    padding: 35px;
-    text-align: right;
+    background: rgb(255, 255, 255);
+    text-align: center;
     font-size: 18px;
+   
 }
 
 ul,li{
-    text-align: right;
+    text-align: center;
 }
