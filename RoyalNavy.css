@@ -1,13 +1,18 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    box-sizing: border-box;
+    text-align: center;   
+}
+
+.container{
     background-image: url(img/cloud.jpg);
     background-size: cover;
     background-repeat:  no-repeat;
     background-position: center;
 }
 
+.title{
+
+}
 header{
     border: 1px solid black;
     background: rgb(250, 248, 214);
