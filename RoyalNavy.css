@@ -7,7 +7,25 @@ body{
     margin-left: 450px;
 }
 
+.Ship{
+    width: 100%
+}
+
+.soldier{
+    width: 100%;
+}
+
+.rise{
+    width: 100%;
+}
+
+.everyday{
+    width: 100%;
+}
+
+
 .container{
+    align-items: center;
     background-image: url(img/cloud.jpg);
     background-size: cover;
     background-repeat:  no-repeat;
