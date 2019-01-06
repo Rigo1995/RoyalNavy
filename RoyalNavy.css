@@ -7,22 +7,37 @@ body{
     margin-left: 450px;
 }
 
-.Ship{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(240, 232, 232);
+  }
+  
+  .active {
+    background-color:lightgray;
+  }
+
+.Ship,.soldier,.rise,.everyday{
     width: 100%
 }
-
-.soldier{
-    width: 100%;
-}
-
-.rise{
-    width: 100%;
-}
-
-.everyday{
-    width: 100%;
-}
-
 
 .container{
     align-items: center;
@@ -32,7 +47,7 @@ body{
     background-position: center;
 }
 
-header{
+H1,header{
     background: #FFFFF0;
     border: 1px solid black;
     font-size: 35px;
